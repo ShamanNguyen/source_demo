@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { View, StatusBar } from 'react-native'
+import Loader from './screens/Loader'
 import AppRouters from './AppRouters'
 
 class LoadingAsync extends Component {
@@ -17,6 +18,7 @@ class LoadingAsync extends Component {
           barStyle="light-content"
         />
         <AppRouters />
+        <Loader />
       </View>
     )
   }

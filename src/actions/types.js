@@ -1,2 +1,6 @@
 export const IS_CONNECTING = 'app/is_connecting'
 export const IS_CONNECT_END = 'app/is_connect_end'
+export const DEMO_GET_API = 'app/DEMO_GET_API'
+export const DEMO_GET_API_SUCCESS = 'app/DEMO_GET_API_SUCCESS'
+export const DEMO_GET_API_FAILED = 'app/DEMO_GET_API_FAILED'
+export const RESET_LIST = 'app/RESET_LIST'
